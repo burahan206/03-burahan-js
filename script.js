@@ -6,11 +6,8 @@ const addToCart = document.getElementById("add-to-cart");
 const totalPriceDisplay = document.getElementById("total-price");
 const cart = document.getElementById("cart");
 
-let totalPrice = 0;
 
-function updateTotalPrice() {
-  totalPriceDisplay.textContent = `Total Price: $${totalPrice}`;
-}
+
 let tasks = [];
 function addTask() {
   if (nameBox.value === "") {
@@ -72,6 +69,12 @@ function addTask() {
   priceBox.value = '';
   imageBox.value = '';
 }
+
+let totalPrice = 0;
+
+function updateTotalPrice() {
+    totalPriceDisplay.textContent = `Total Price: $${totalPrice}`;
+  }
 
 addToCart.addEventListener("click", function () {
   cart.innerHTML = "";
