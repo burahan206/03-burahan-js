@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+/* สไตล์พื้นฐาน */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* สีพื้นหลังอ่อน */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* สไตล์สำหรับรายการสินค้า */
+  #list-container {
+    list-style: none; /* ไม่ใช้ bullet */
+    padding: 0;
+  }
+  
+  #list-container li {
+    background: #fff; /* สีพื้นหลังของรายการ */
+    border: 1px solid #ddd; /* ขอบ */
+    border-radius: 5px; /* มุมโค้ง */
+    margin: 10px 0; /* ระยะห่างระหว่างรายการ */
+    padding: 15px; /* Padding ภายใน */
+    display: flex; /* ใช้ flexbox เพื่อจัดการ layout */
+    align-items: center; /* จัดแนวกลางในแนวตั้ง */
+  }
+  
+  /* สไตล์สำหรับรูปภาพ */
+  #list-container img {
+    width: 50px; /* กำหนดขนาดรูปภาพ */
+    height: 50px; /* กำหนดขนาดรูปภาพ */
+    margin-left: 10px; /* ระยะห่างจากข้อความ */
+  }
+  
+  /* สไตล์สำหรับปุ่ม */
+  button {
+    background-color: #007bff; /* สีพื้นหลังของปุ่ม */
+    color: white; /* สีของข้อความในปุ่ม */
+    border: none; /* ไม่มีขอบ */
+    border-radius: 5px; /* มุมโค้ง */
+    padding: 5px 10px; /* Padding ภายใน */
+    cursor: pointer; /* แสดงมือเมื่อวางเมาส์ */
+    margin-left: 10px; /* ระยะห่างจาก checkbox */
+  }
+  
+  /* เปลี่ยนสีปุ่มเมื่อ hover */
+  button:hover {
+    background-color: #0056b3; /* สีเมื่อ hover */
+  }
+  
+  /* สไตล์สำหรับตะกร้า */
+
+  #cart div {
+    display: flex; /* ใช้ flexbox */
+    align-items: center; /* จัดแนวกลางในแนวตั้ง */
+    margin-bottom: 10px; /* ระยะห่างระหว่างสินค้าในตะกร้า */
+  }
+  
+  /* สไตล์สำหรับราคา */
+  #total-price {
+    font-weight: bold; /* ตัวหนา */
+    margin-top: 20px; /* ระยะห่างด้านบน */
+  }
+  
