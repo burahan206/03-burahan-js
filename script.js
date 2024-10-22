@@ -66,8 +66,6 @@ function addTask() {
     updateTotalPrice();
   });
 
-  updateTotalPrice();
-
   tasks.push(task);
 
   nameBox.value = '';
